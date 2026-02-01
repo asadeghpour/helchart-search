@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "rancher-repo": {
+      "command": "node",
+      "args": ["/root/helm-mcp/build/index.js"]
+    }
+  },
+  "remoteServers": {} 
+}

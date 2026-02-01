@@ -1,0 +1,25 @@
+{
+  "name": "rancher-helm-mcp",
+  "version": "1.0.0",
+  "description": "MCP server to evaluate Rancher Helm charts",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "axios": "^1.6.0",
+    "gunzip-maybe": "^1.4.2",
+    "js-yaml": "^4.1.0",
+    "tar-stream": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/gunzip-maybe": "^1.4.3",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+    "@types/tar-stream": "^3.1.4",
+    "typescript": "^5.9.3"
+  }
+}
