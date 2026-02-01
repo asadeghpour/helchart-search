@@ -16,4 +16,4 @@ This server allows AI assistants (like Claude, ChatGPT, or local Ollama models) 
 ### 1. Prerequisites
 Ensure you have Node.js and npm installed on your system:
 ```bash
-sudo dnf install nodejs npm
+sudo zypper install nodejs npm
